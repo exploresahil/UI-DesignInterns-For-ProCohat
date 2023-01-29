@@ -189,7 +189,7 @@ main {
         outline: none;
         border: none;
 
-        background: url("https:cdn-icons-png.flaticon.com/512/7420/7420995.png") no-repeat 95% 50% rgb(255, 255, 255);
+        background: url("https://cdn-icons-png.flaticon.com/512/7420/7420995.png") no-repeat 95% 50% rgb(255, 255, 255);
             background-size: 20px;
 
         &:focus {
@@ -198,17 +198,17 @@ main {
         }
 
         &:focus:invalid {
-            background: url("https:cdn-icons-png.flaticon.com/512/2893/2893811.png") no-repeat 95% 50% rgb(255, 255, 255);
+            background: url("https://cdn-icons-png.flaticon.com/512/2893/2893811.png") no-repeat 95% 50% rgb(255, 255, 255);
                 background-size: 20px;
         }
 
         &:required:focus:valid {
-            background: url("https:cdn-icons-png.flaticon.com/512/1828/1828739.png") no-repeat 95% 50% rgb(255, 255, 255);
+            background: url("https://cdn-icons-png.flaticon.com/512/1828/1828739.png") no-repeat 95% 50% rgb(255, 255, 255);
                 background-size: 20px;
         }
 
         &:required:valid {
-            background: url("https:cdn-icons-png.flaticon.com/512/1828/1828739.png") no-repeat 95% 50% rgb(255, 255, 255);
+            background: url("https://cdn-icons-png.flaticon.com/512/1828/1828739.png") no-repeat 95% 50% rgb(255, 255, 255);
                 background-size: 20px;
         }
         
