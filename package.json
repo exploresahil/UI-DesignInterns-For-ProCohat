@@ -1,0 +1,29 @@
+{
+  "name": "test-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.11",
+    "cssnano": "^5.1.14",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.57.1",
+    "ua-parser-js": "^1.0.33"
+  },
+  "overrides": {
+    "chokidar": "3.5.3",
+    "glob-parent": "6.0.2",
+    "qs": "6.11.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^5.1.0"
+  },
+  "keywords": [],
+  "description": ""
+}

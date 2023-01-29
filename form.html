@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>UI Design Interns - For: ProCohat</title>
+    <link rel="icon" type="image/svg+xml" sizes="21x21" href="./assets/logos/main_logo.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="flex flex-ai-ctr flex-jc-ctr">
+        <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;"
+            onload="if(submitted){window.location='form-submitted.html';}"></iframe>
+        <img src="./assets/images/bg.jpg" alt="backgroung image" class="bg_img" />
+        <div class="bg_img_overlay"></div>
+        <div class="bg_img_overlay_dark"></div>
+        <div class="form_container">
+            <h2>UI Internship Form - ProCohat</h2>
+            <form
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeMrvnfrEE0rVCLpQkuUiu_qRyNfYndqJ2WfZ0VvFaZbZ8CzQ/formResponse"
+                method="post" target="hiddenConfirm" onsubmit="submitted=true">
+
+                <div id="formOne" class="form_slide visible">
+                    <div class="basic_info flex">
+                        <div>
+                            <label>First Name: *</label>
+                            <input type="text" name="entry.686145553" placeholder="Enter First Name" required><br>
+                        </div>
+                        <div>
+                            <label>Last Name: *</label>
+                            <input type="text" name="entry.36193824" placeholder="Enter Last Name" required>
+                        </div>
+                    </div>
+                    <label>Email: *</label>
+                    <input type="email" name="emailAddress" placeholder="Enter Email-id" required>
+
+                    <div class="buttons">
+                        <button id="info" type="button">Info</button>
+                        <button id="formNextOne" type="button">Next</button>
+                    </div>
+                </div>
+                <div id="formTwo" class="form_slide ">
+                    <label for="software">Preferred Softwares:</label><br>
+
+                    <div class="checklist">
+                        <div class="check">
+                            <input type="checkbox" name="entry.583169452" value="Figma">
+                            <label for="figma">Figma</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" name="entry.583169452" value="Adobe XD">
+                            <label for="adobe XD">Adobe XD</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" name="entry.583169452" value="Sketch">
+                            <label for="sketch">Sketch</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" name="entry.583169452" value="Other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+
+                    <label for="experiencs">Design Experience: *</label><br>
+
+                    <select name="entry.859621855" required>
+                        <option value="" selected disabled>Choose</option>
+                        <option value="Newbie">Newbie</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Experienced">Experienced</option>
+                        <option value="Advanced">Advanced</option>
+                        <option value="Expert">Expert</option>
+                    </select>
+
+                    <label for="entry.419923824">Portfolio Url:</label>
+                    <input class="not_required" type="text" name="entry.2051560040"
+                        placeholder="Paste your Portfolio Url">
+
+                    <div class="buttons">
+                        <button id="formBackOne" type="button">Back</button>
+                        <button id="formNextTwo" type="button">Next</button>
+                    </div>
+                </div>
+
+                <div id="formThree" class="form_slide">
+                    <label for="entry.1221458848">What do you hope to gain from this internship?</label><br>
+                    <textarea name="entry.1221458848"></textarea>
+                    <br>
+                    <label for="entry.1052405820">Any other information you would like to share?</label><br>
+                    <textarea name="entry.1052405820"></textarea>
+
+                    <div class="buttons">
+                        <button id="formBackTwo" type="button">Back</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="./dist/form.js"></script>
+    <script src="./dist/script.js"></script>
+</body>
+
+</html>
